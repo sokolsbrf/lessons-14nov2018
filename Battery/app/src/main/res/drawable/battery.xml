@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+            <stroke android:color="@color/colorPrimaryDark" android:width="2dp" />
+        </shape>
+
+    </item>
+
+    <item>
+
+        <level-list>
+            <item android:minLevel="0" android:maxLevel="1500">
+                <clip android:clipOrientation="vertical" android:gravity="bottom">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="4dp" />
+                        <stroke android:color="@color/colorPrimaryDark" android:width="2dp" />
+                        <solid android:color="@color/colorPrimary" />
+                    </shape>
+                </clip>
+            </item>
+
+            <item android:minLevel="1501" android:maxLevel="10000">
+                <clip android:clipOrientation="vertical" android:gravity="bottom">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="4dp" />
+                        <stroke android:color="@color/colorPrimaryDark" android:width="2dp" />
+                        <solid android:color="@color/colorAccent" />
+                    </shape>
+                </clip>
+            </item>
+
+        </level-list>
+
+    </item>
+
+</layer-list>

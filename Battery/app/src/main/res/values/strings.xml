@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Battery</string>
+
+    <string name="percents">%1$d %%</string>
+
+    <plurals name="percents">
+        <item quantity="one">%1$d процент</item>
+        <item quantity="two">%1$d процента</item>
+        <item quantity="few">%1$d процента</item>
+        <item quantity="many">%1$d процентов</item>
+    </plurals>
+</resources>
